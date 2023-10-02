@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+  background-color: rgb(163, 144, 144);
+  user-select: none;
+}
+
+input {
+  width: 40%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 3px solid #000000;
+  margin-bottom: 4px;
+  background-color: rgb(234, 234, 231);
+  margin-right: 10px;
+  font-size: medium;
+}
+
+button {
+  background: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #000000;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(177, 177, 106);
+}
+
+#delete-btn {
+  background: white;
+  color: #000000;
+  border-radius: 5px;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+ul li:active {
+  scale: 1.005;
+}
+ul li {
+  font-size: 16px;
+  background-color: #fffdf8;
+  padding: 5px;
+  border-radius: 8px;
+  flex-grow: 1;
+  text-align: center;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  display: inline-block;
+}
+a {
+  color: #5f9341;
+}
+.header {
+  width: 100vw;
+
+  text-align: center;
+}
+
+button:focus {
+  background-color: rgb(70, 69, 69);
+}
+.note {
+  background-color: grey;
+  color: #000000;
+  box-shadow: 1px 1px 1px rgb(147, 147, 96);
+  border-radius: 8px;
+  padding: 10px 25px;
+  position: fixed;
+  margin: 15px auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: fit-content;
+  border: 2px solid black;
+}
+
+p {
+  line-height: 30px;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  margin: 30px auto 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+button:hover {
+  background-color: grey;
+}
+button:active {
+  scale: 1.025;
+}
